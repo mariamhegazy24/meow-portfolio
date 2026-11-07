@@ -69,7 +69,7 @@ export function ProjectCard({project, index, total, progress}: ProjectCardProps)
               <div className="p-5 md:p-8 text-xs md:text-lg">
                 <div className="font-heading font-bold mb-2 md:mb-4">FEATURES</div>
                 {project.features.map((feature) => (
-                  <div key={feature} className="py-1 border-b border-current/20">{feature}</div>
+                  <div key={feature} className="py-1 border-b border-current/20">✦ {feature}</div>
                 ))}
               </div>
             </Panel>

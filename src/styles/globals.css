@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { background: #FFF7ED; color: #29211E; font-family: 'DM Sans', sans-serif; scroll-behavior: smooth; }
+
+.font-heading { font-family: 'Kanit', sans-serif; }
+.cat-gradient-text {
+  background: linear-gradient(180deg, #29211E 0%, #C9793C 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Living portrait: the canvas is 1.7x larger than the picture so the skin can stretch past its edges */
+.hero-portrait-wrap {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  z-index: 10; width: min(88vw, clamp(260px, 56vh, 560px)); touch-action: pan-y;
+}
+.hero-portrait-inner { position: relative; }
+.hero-portrait-inner img { display: block; width: 100%; height: auto; object-fit: contain; user-select: none; -webkit-user-drag: none; }
+#faceGl { position: absolute; left: -35%; top: -35%; width: 170%; height: 170%; pointer-events: none; }
+
+@media (hover: hover) and (pointer: fine) { body, a, button { cursor: none; } }
+
+@keyframes bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-12px) rotate(4deg); } }
+.bob { animation: bob 5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .bob { animation: none; } html { scroll-behavior: auto; } }

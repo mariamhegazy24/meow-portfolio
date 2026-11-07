@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{fontFamily:{kanit:['Kanit','sans-serif'],sans:['"DM Sans"','sans-serif']},colors:{cream:'#FFF7ED',ivory:'#FDFBF7',ginger:'#E99A55',deep:'#C9793C',peach:'#F5C6A5',pink:'#EFA6B7',blush:'#F8DCE2',cocoa:'#713F32',espresso:'#29211E'}}},plugins:[]}

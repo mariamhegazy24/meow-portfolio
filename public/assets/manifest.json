@@ -1,0 +1,38 @@
+{
+ "size": [
+  640,
+  768
+ ],
+ "smallSize": [
+  480,
+  576
+ ],
+ "frames": {
+  "angry": "angry",
+  "cheeky": "tongue + squint",
+  "closed": "eyes closed",
+  "cry": "crying",
+  "dizzy": "spiral eyes",
+  "down": "gaze down",
+  "half": "eyelids half closed",
+  "happy": "happy smile",
+  "hearts": "heart eyes",
+  "kiss": "kiss",
+  "laugh": "laughing",
+  "left": "gaze left",
+  "ouch": "wince",
+  "puff": "cheeks puffed",
+  "rest": "neutral, eyes forward (base)",
+  "right": "gaze right",
+  "scared": "scared",
+  "shock": "shocked",
+  "shock2": "shocked (alt)",
+  "sneeze": "sneeze",
+  "stars": "star eyes",
+  "tongue": "tongue out",
+  "up": "gaze up",
+  "winkl": "wink (viewer-left eye)",
+  "winkr": "wink (viewer-right eye)",
+  "yawn": "yawn"
+ }
+}
